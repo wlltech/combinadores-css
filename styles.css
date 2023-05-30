@@ -1,0 +1,17 @@
+/* COMBINADORES: ADJACENT SIBLINGS */
+/* Etiquetas p que estén adyacentes (debajo) de un h1*/
+h1 + p {
+    color: aqua;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+/* COMBINADORES: GENERAL SIBLING */
+/* Etiquetas p que están en el mismo nivel de la etiqueta h4*/
+h4 ~ p {
+    color: rgb(64, 130, 165);
+    font-size: 20px;
+    font-family: serif;xs
+    font-weight: bold;
+}
