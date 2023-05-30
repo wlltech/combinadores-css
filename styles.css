@@ -8,10 +8,28 @@ h1 + p {
 }
 
 /* COMBINADORES: GENERAL SIBLING */
-/* Etiquetas p que están en el mismo nivel de la etiqueta h4*/
+/* Etiquetas p que están en el mismo nivel de la etiqueta h4 */
 h4 ~ p {
     color: rgb(64, 130, 165);
+    font-family: serif;
     font-size: 20px;
-    font-family: serif;xs
     font-weight: bold;
+}
+
+/* COMBINADORES: CHIL D*/
+/* Etiquetas h4 hijas directaas de la etiqueta section */
+section > h4 {
+    color: brown;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+/* COMBINADORES: DESCENDIENTE */
+/* Etiquetas li que se encuentren debajo de la etiqueta nav */
+nav li {
+    color: rgb(42, 138, 165);
+    font-size: 18px;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 10px;
 }
